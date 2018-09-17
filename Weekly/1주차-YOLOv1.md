@@ -1,6 +1,6 @@
 # YOLO v1 (You Only Look Once,2016)
 
-Object detection을 위해 설계된 CNN 구조의 알고리즘 
+**Object detection**을 위해 설계된 **CNN** 구조의 알고리즘 
 
 </br>
 
@@ -149,10 +149,13 @@ object당 하나의 bounding box만 있어야 한다
 
 #### 참고 문헌 및 사이트
 
-[논문]()
-[논문 번역]http://dhhwang89.tistory.com/51
-https://medium.com/@jonathan_hui/real-time-object-detection-with-yolo-yolov2-28b1b93e2088
-https://medium.com/adventures-with-deep-learning/yolo-v1-part-1-cfb47135f81f
+- [논문 pdf](https://pjreddie.com/media/files/papers/yolo.pdf)
+
+- [논문 번역](http://dhhwang89.tistory.com/51)
+
+- https://medium.com/@jonathan_hui/real-time-object-detection-with-yolo-yolov2-28b1b93e2088
+
+- https://medium.com/adventures-with-deep-learning/yolo-v1-part-1-cfb47135f81f
 
 
 
