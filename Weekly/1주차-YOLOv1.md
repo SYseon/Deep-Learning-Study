@@ -45,7 +45,7 @@
 </br>
 
 
-## 작동 원리
+## Unified Detection
 
 ![dog](https://user-images.githubusercontent.com/33515697/45637624-ef4edc00-bae5-11e8-8d99-050315645272.png)
 
