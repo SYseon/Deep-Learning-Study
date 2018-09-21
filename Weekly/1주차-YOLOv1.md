@@ -138,11 +138,17 @@ object당 하나의 bounding box만 있어야 한다
 
 => **Non-max suppression**으로 해결
 
-- Non-max suppression : 최대치만 남기고 나머지 억제
+- Non-max suppression : 최대값만 남기고 나머지 억제
 
-  1. confidence 점수로 sort
+  1. confidence(=box confidence * class prob) 점수로 sort
   
-  2. confidence 점수 순으로 IOU 비교하여 가장 큰 것만 남기고 나머지 억제
+  2. confidence 낮은 것은 0으로 만든다 (e.g. confidence<=0.6 -> set 0) 
+  
+  3. 가장 큰 값의 confidence 고른다.
+  
+  4. confidence 순으로 진행, 이전의 bounding box와 비교 순서인 bounding box IOU 비교하여 IOU>=0.5 인 것 억제한다.
+  
+  5. class 수 만큼 반복
 
 
  </br>
